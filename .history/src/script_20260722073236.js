@@ -29,20 +29,4 @@ let divNum=x/y;
 console.log(divNum);
 
 let multNum=x*y;
-console.log(multNum);
-
-let n=15;
-let m=4;
-let remainder=n%m;
-console.log(remainder);
-
-let young=true;
-console.log(young);
-
-let main=80;
-console.log(typeof(main));
-
-let pal="Nina";
-console.log(typeof(pal));
-
-
+console.log(multNum)

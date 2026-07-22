@@ -37,12 +37,6 @@ let remainder=n%m;
 console.log(remainder);
 
 let young=true;
-console.log(young);
-
-let main=80;
-console.log(typeof(main));
-
-let pal="Nina";
-console.log(typeof(pal));
+console.log(young)
 
 
