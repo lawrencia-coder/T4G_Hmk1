@@ -46,8 +46,8 @@ let pal="Nina";
 console.log(typeof(pal));
 
 //ASSIGNMENT 10
-let Age = prompt("How old are you?")
-function Verifyage (){if  (Age<12){
+functionlet Age = prompt("How old are you?")
+{ if  (Age<12){
     alert(`Hi ${name}, you are ${Age} years old and you are too young to register. Sorry😔😔`)
 }else if(Age>= 12 && Age <=18){
     alert(`Hi ${name}, you are ${Age} years old and you have limited options to register for. We will keep in touch via your email: ${email}👋👋`)
@@ -57,6 +57,4 @@ function Verifyage (){if  (Age<12){
         alert(`Welcome ${name}! Please enter a valid age/number`);
     }
 
-};
-
-Verifyage();
+}

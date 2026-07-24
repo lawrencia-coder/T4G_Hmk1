@@ -46,17 +46,12 @@ let pal="Nina";
 console.log(typeof(pal));
 
 //ASSIGNMENT 10
-let Age = prompt("How old are you?")
-function Verifyage (){if  (Age<12){
-    alert(`Hi ${name}, you are ${Age} years old and you are too young to register. Sorry😔😔`)
-}else if(Age>= 12 && Age <=18){
-    alert(`Hi ${name}, you are ${Age} years old and you have limited options to register for. We will keep in touch via your email: ${email}👋👋`)
-}else if (Age>=18){ alert(`Hi ${name}, you are ${Age} years old and you can register for any option of your choice. We will keep in touch via your email: ${email} 👋👋`)
+let age = prompt("How old are you?")
+{ if  (age<12){
+    alert(`Hi ${name}, you are ${age} years old and you are too young to register. Sorry😔😔`)
+}else if(age = 12 && 18){
+    alert(`Hi ${name}, you are ${age} years old and you have limited options to register for. We will keep in touch via your email: ${email}👋👋`)
+}else if (age>=18){ alert(`Hi ${name}, you are ${age} years old and you can register for any option of your choice. We will keep in touch via your email: ${email} 👋👋`)
 
-}else{
-        alert(`Welcome ${name}! Please enter a valid age/number`);
-    }
-
-};
-
-Verifyage();
+}
+}

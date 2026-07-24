@@ -57,6 +57,5 @@ function Verifyage (){if  (Age<12){
         alert(`Welcome ${name}! Please enter a valid age/number`);
     }
 
-};
+}
 
-Verifyage();
